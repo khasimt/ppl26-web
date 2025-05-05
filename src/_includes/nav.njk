@@ -1,0 +1,16 @@
+<ul class="navibar cf">
+{%- for item in nav -%}
+  {%- if item.enabled -%}
+    {%- if page.url == "/" -%}
+      {%- set current = "index.html" -%}
+    {%- else -%}
+      {%- set current = page.url | replace('/','') -%}
+    {%- endif -%}
+    {%- if current == item.url -%}
+      <li><span class="current">{{ item.label }}</span></li>
+    {%- else -%}
+      <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+</ul>

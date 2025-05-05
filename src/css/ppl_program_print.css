@@ -1,0 +1,196 @@
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#headline {
+    display: none;
+}
+
+body {
+    font-size: 10pt;
+    font-family: serif;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    background: none;
+    border-color: black;
+    border-width: 0 0 1pt 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+ul.navibar {
+    display: none;
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navigation {
+    /* margin: 1em 0 1em 0; */
+    /* text-align: center; */
+    display: none;
+}
+
+div.part {
+    margin: 0pt 0pt 2em 0pt;
+    padding: 0px;
+    /* border-width: 0px 3px 3px 0px; */
+    /* border-color: #b3840a; */
+    /* border-style: dotted; */
+    /* background-color: #dedece; */
+}
+
+div.part_title,
+h2 {
+    /* border-left: 1.5em solid #205374; */
+    /* border-left: 1.3em solid #f90; */
+    /* background-color: #5083a4; */
+    /* padding: 0.2em 0em 0.2em 0.4em; */
+    /* font-family: sans-serif; */
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-bottom: 1pt solid #000;
+}
+
+div.event {
+    margin: 0px 0em 0.3em 0em;
+}
+
+span.event_title {
+    /* font-family: sans-serif; */
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+span.title {
+    font-family: sans-serif;
+    font-weight: bold;
+    /* color: #aa2821; */
+}
+
+
+div.cat0,
+div.cat1,
+div.cat2,
+div.cat3,
+div.cat4 {
+    margin: 0.3em 1em 0.3em 1em;
+}
+
+div.cat4abst {
+    display: none;
+}
+
+div.abstract p {
+    margin: 0px;
+}
+
+div.event p {
+    margin: 0px;
+}
+
+div.abstract p::before {
+    content: '概要';
+    margin-right: 0.5em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+span.paper_source {
+    display: inline-block;
+    font-size: 90%;
+}
+
+span.paper_source::before {
+    content: '出典：';
+    display: inline-block;
+}
+
+
+.presentation_id {
+    display: inline-block;
+    color: var(--presentation-id-color);
+}
+
+.presentation_id::before {
+    content: '#';
+    display: inline;
+}
+
+.affiliation {
+    display: inline-block;
+}
+
+.affiliation::before {
+    display: inline;
+    content: '(';
+}
+
+.affiliation::after {
+    display: inline;
+    content: ')';
+}
+
+.affil_num {
+    vertical-align: super;
+    font-size: 0.8em;
+}
+
+.names {
+    margin-right: 0.5em;
+}
+
+
+span.cat,
+span.is_student,
+span.poster_style {
+    display: inline-block;
+    color: #555;
+    background-color: #EEE;
+    font-size: 0.8rem;
+}
+
+span.cat::before,
+span.is_student::before,
+span.poster_style::before {
+    display: inline;
+    content: '[';
+}
+
+span.cat::after,
+span.is_student::after,
+span.poster_style::after {
+    display: inline;
+    content: ']';
+}

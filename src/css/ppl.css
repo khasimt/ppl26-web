@@ -1,0 +1,510 @@
+@charset "UTF-8";
+
+:root {
+  --main-color: #F4FAFC; /* 一番でかい背景の色．黒字が見えるよう明るめが無難 */
+  --navi-color: #295931; /* 一番上の 「Top」 とか 「招待講演」 とかの背景色 */
+  --title-color: #3E6D46;  /* 「おしらせ」とかのヘッダ背景色 */
+  --section-color: #E3EBC8; /* 「おしらせ」の下の文章の背景色 */
+  --semititle-font-color: #0A6D92; /* 「プログラム委員会」とかのフォント色 */
+  --hover-color: #A47A0F; /* 一番上の「招待講演」とかにカーソルが載ったときの背景色 */
+}
+/*
+PPL2021 #fff    <- 全体的に東工大インスパイアカラー
+PPL2020 #fff5d5
+PPL2019 #fafdff
+PPL2018 #c7f0c4
+PPL2017 #fed
+PPL2016 #69cdd2
+PPL2015 #eeeede
+PPL2014 #acb;
+PPL2013 #ddf
+PPL2012 white
+PPL2011 lavender
+PPL2010 #fcc
+PPL2009 #cff
+PPL2008 #cfa
+PPL2007 #ebdc8e
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-color);
+  font-color: black;
+}
+
+a:link { color: #333 }
+a:visited { color: #555 }
+a:active { color: #999 }
+a:hover { color: #f90 }
+
+em {
+  color: #d00;
+  font-weight: bold;
+  font-style: normal;
+}
+
+div#headline {
+  margin: 0;
+  text-align: right;
+  background-color: var(--navi-color);
+  padding: 2px 0.5em 0 0.5em;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 5px;
+  font-size: 200%;
+}
+
+table.board {
+  margin: 1.5em auto;
+  font-size: large;
+  background-color: var(--section-color);
+  padding: 0.5em 2em;
+}
+
+.shadow {
+  position: relative;
+}
+
+.shadow:before, .shadow:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 60%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.shadow:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+div.navi {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+div.notice {
+  font-size: large;
+  margin: 0em 8% 2em 8%;
+  padding: 0.5em;
+  background-color: #fefef3;
+  max-height: 100%;
+}
+
+p {
+    text-indent: 0em;
+}
+
+/* Changes appearance even without p-tag. */
+div.warning {
+  margin: 0 8% 1.5em 8%;
+  font-size: large;
+  padding: 0.4em 2em 0.4em 2em;
+  border: solid #b3840a 2px;
+  background-color: white;
+}
+
+h2 {
+  margin: 1.5em 5% 0em 5%;
+  border-left: 1.3em solid #DAA520; /* #B03 */
+  padding: 0.2em 0em 0.2em 0.4em;
+  color: white;
+  font-size: large;
+  background-color: var(--title-color);
+}
+
+div.section {
+  margin: 0 5% 1.5em 5%;
+  padding: 0.6em 1em;
+  background-color: var(--section-color);
+  max-height: 100%;
+}
+
+div.section > p {
+  text-indent: 0em;
+}
+
+ul, ol, dl {
+  margin: 0 0 0 2.5em;
+  padding: 0;
+}
+ul li, ol li {
+  margin: 0;
+  padding: 0;
+}
+
+p.news {
+  margin: 0 0 1em 0;
+}
+
+ul.news {
+  margin: 0 0 0 1em;
+  padding: 0;
+}
+
+h3 {
+  margin: 0 0 0.2em 0;
+  font-size: large;
+  font-weight: bold;
+  color: var(--semititle-font-color);
+}
+
+h4{
+  margin:0em;
+  padding:3px 1em
+}
+
+p {
+  margin: 0 0 0 1em;
+  line-height: 1.3em;
+}
+
+table {
+  margin: 0.6em 0.5em 0.6em 2em;
+  padding: 0;
+  border-spacing: 0;
+}
+td { margin: 0.2em 0; padding: 0 }
+td p { margin: 0 }
+th {
+  margin: 0;
+  padding: 0.2em 1em 0.2em 0;
+  font-style: normal;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: middle;
+}
+
+table.members { padding-left: 1em; }
+table.members { margin: 0 }
+table.members td { margin: 0.1em 0; padding: 0.1em 0.6em; }
+table.members th { font-weight: bold; padding: 0.1em 1em 0.1em 0; }
+
+table.board td, table.board th {
+    padding-top:    0.25em;
+    padding-bottom: 0.25em;
+}
+
+
+table.charge {
+  margin-left: auto;
+  margin-right: auto;
+  border-top: thin solid black;
+  border-left: thin solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table.charge td, table.charge th {
+  border-right: thin solid black;
+  border-bottom: thin solid black;
+  text-align: center;
+  padding: 0.2em;
+  white-space: normal;
+}
+table.charge th {
+  font-weight: bold;
+}
+
+ol.instruction > li {
+    margin-top: 0.9em;
+    font-weight: bold;
+}
+
+ol.instruction > p {
+    margin: 0.9em 0
+}
+
+ol.instruction ul li {
+    margin-top: 0.2em;
+}
+
+h3 + p  {
+    margin-top: 0.3em;
+}
+
+li + li {
+    margin-top: 0.3em;
+}
+
+h3 + table.members {
+    margin-top: 0.3em;
+}
+
+table + p {
+    margin-top: 0.3em;
+}
+
+p + h3 {
+    margin-top: 0.9em;
+}
+
+ul + h3, ul + h4 {
+    margin-top: 0.9em;
+}
+
+ol + h3, ol + h4 {
+    margin-top: 0.9em;
+}
+
+table + h3 {
+    margin-top: 0.6em;
+}
+
+p + p {
+    margin-top: 0.6em;
+}
+
+p + ul {
+    margin-top: 0.6em;
+}
+
+p + dl {
+    margin-top: 0.6em;
+}
+
+ul + p, dl + p, ol + p, table + p {
+    margin-top: 0.6em;
+    text-indent: 1em;
+}
+
+td.affil:before {
+    content: "（";
+}
+
+td.affil:after {
+    content: "）";
+}
+td.role:before {
+    content: "["
+}
+td.role:after {
+    content: "]"
+}
+
+span.new {
+    font-weight:  bold;
+    border-style: dotted;
+    border-width: 0 0 3px 0;
+    border-color: #f90;
+}
+
+span.new:after {
+    content: "【新規】";
+}
+
+p.portrait {
+    float: right;
+    margin-left: 1em;
+    margin-right: 0px;
+    margin-bottom: 1em;
+    padding: 8px;
+    background-color: #fafaf8;
+    text-indent: 0em;
+}
+
+img {
+   vertical-align:bottom
+}
+
+p.speaker {
+    font-size: large;
+    text-indent: 0px;
+    font-weight: bold;
+    margin-left: 0.833em;
+}
+
+
+ul.navibar {
+    margin-left: 0px;
+    margin-right: 0px;
+
+    list-style-type: none;
+    background-color: var(--navi-color);
+}
+
+ul.navibar li {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background-color: var(--navi-color);
+    color: white;
+}
+
+ul.navibar a {
+    color: white;
+    display: block;
+
+    padding: 0.2em 1em 0.2em 1em;
+    text-decoration: none;
+}
+
+ul.navibar li a:hover  {
+    border-top-left-radius:  0.5em;
+    border-top-right-radius: 0.5em;
+    background-color: var(--hover-color);
+}
+
+ul.navibar li span.current {
+    display: block;
+    padding: 0.2em 1em 0.2em 1em;
+
+    background-color: var(--main-color);
+    border-top-left-radius:  0.5em;
+    border-top-right-radius: 0.5em;
+    color: black;
+}
+
+/* So-called clearfix hack */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/* style for prize */
+.prize dt {
+    font-weight: bold;
+}
+
+.prize .title {
+    color: #000;
+    font-weight: normal;
+}
+
+.prize .title:before {
+    content: "「";
+}
+
+.prize .title:after {
+    content: "」";
+}
+
+/* style for sponsorship */
+.sponsor {
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sponsor .platinum {
+    width: 400px;
+    height: 400px;
+}
+
+.sponsor .gold {
+    width: 300px;
+    height: 300px;
+}
+
+.sponsor .silver {
+    width: 200px;
+    height: 200px;
+}
+
+.sponsor img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.sponsor figcaption {
+    margin-top: 10px;
+}
+
+/* style for accepted papers */
+ul.papers {
+    margin-left:  -1em;
+    margin-right: -1em;
+}
+
+ul.papers li {
+    display: block;
+    margin-bottom: 0.6em;
+    padding: 0.6em;
+
+    border-radius: 0.5em;
+    background-color: #fefef3;
+
+    box-shadow: 0.1em 0.1em 0.2em #ccc;
+}
+
+ul.papers span.title {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ul.papers span.authors:after {
+    content: ". ";
+}
+
+ul.papers span.in {
+    display: block;
+}
+
+ul.papers span.in:before {
+    content: "出典：";
+    font-weight: bold;
+}
+
+ul.papers span.title + span.presented {
+    margin-top: 0.6em;
+}
+
+ul.papers span.title + span.in {
+    margin-top: 0.6em;
+}
+
+ul.papers span.presented {
+    display: block;
+}
+
+ul.papers span.presented:before {
+    content: "原論文の発表会議：";
+    font-weight: bold;
+}
+
+ul.no_bullet {
+    list-style-type: none;
+}
+
+ul.no_bullet li + li {
+    margin-top: 0.1em;
+}
+.email {
+    font-family: monospace;
+}
