@@ -1,0 +1,302 @@
+@charset "UTF-8";
+@import "ppl.css";
+
+:root {
+    --event-back-color: transparent;
+
+    /* ppl.css の h2 の左に色と合わせる */
+    --part-title-left-color: #B03;
+
+    /* --c0-color: hsl(280, 70%, 85%);
+    --c1-color: hsl(98, 46%, 70%);
+    --c2-color: hsl(44, 67%, 82%);
+    --c3-color: hsl(200, 70%, 85%);
+    --c4-color: hsl(28, 73%, 83%);
+ */
+    --c0-color: hsl(280, 70%, 85%);
+    --c1-color: hsl(98, 56%, 70%);
+    --c2-color: hsl(44, 67%, 68%);
+    --c3-color: hsl(200, 70%, 85%);
+    --c4-color: hsl(28, 73%, 73%);
+
+    --label-color: rgb(0, 0, 0);
+    /* --label-background-color: hsl(0, 40%, 45%); */
+    --label-background-color: hsl(226, 52%, 85%);
+    /* --label-background-color: hsl(212, 80%, 88%); */
+
+    --label-student-color: hsl(286, 90%, 20%);
+    --label-student-background-color: hsl(286, 55%, 85%);
+
+    --label-psposter-background-color: var(--label-background-color);
+    --label-psdemo-background-color: var(--label-background-color);
+
+    --author-color: hsl(232, 5%, 45%);
+    --presenter-color: hsl(232, 20%, 45%);
+    --abstract-color: var(--author-color);
+    --paper_source_color: var(--author-color);
+
+    --presentation-id-color: hsl(200, 60%, 35%);
+}
+
+/*　the following entries are for the program page */
+
+b {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.notice {
+    border: 0.1rem solid hsla(0, 0%, 0%, 20%);
+    box-shadow: 0px 0px 1rem 0.05rem hsla(0, 0%, 0%, 5%);
+}
+
+div.navigation {
+    margin: 1em 0 1em 0;
+    text-align: center;
+}
+
+ul.navigation {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0px;
+}
+
+ul.navigation li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 0.4em;
+}
+
+ul.navigation li a {
+    display: inline-block;
+    padding: 0.2em 0.3em;
+}
+
+/* 
+ul.navigation li a[href$="#posters"]::before {
+    content: '[';
+    display: inline;
+}
+
+ul.navigation li a[href$="#posters"]::after {
+    content: ']';
+    display: inline;
+} */
+
+div.part {
+    margin: 0 5% 1.5em 5%;
+    padding: 6px 1em;
+}
+
+div.part0 {
+    margin: 0 5% 0 5%;
+    padding: 6px 1em;
+}
+
+div.part_title {
+    border-left: 1.3em solid var(--part-title-left-color);
+    background-color: var(--title-color);
+    padding: 0.2em 0em 0.2em 0.4em;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+div.poster_group,
+div.event {
+    /* margin: 0px 0em 0.3em 0em; */
+    /* margin: 0.3em 0px; */
+    background-color: var(--event-back-color);
+    padding: 0.2rem 0.2rem;
+}
+
+.group_name,
+span.event_title {
+    font-size: large;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+div.cat0,
+div.cat1,
+div.cat2,
+div.cat3,
+div.cat4 {
+    position: relative;
+    margin: 0.2em 0.5em 0.5em 0.5em;
+    overflow: auto;
+    padding: 0.6rem 0.4rem;
+    padding-left: 1.6rem;
+    background-color: var(--section-color);
+    border-radius: 0.3rem;
+}
+
+div.cat0::before,
+div.cat1::before,
+div.cat2::before,
+div.cat3::before,
+div.cat4::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0.5em;
+    top: 0.5em;
+    width: 0.55em;
+    height: calc(100% - 1em);
+}
+
+div.cat0::before {
+    background-color: var(--c0-color);
+}
+
+div.cat1::before {
+    background-color: var(--c1-color);
+}
+
+div.cat2::before {
+    background-color: var(--c2-color);
+}
+
+div.cat3::before {
+    background-color: var(--c3-color);
+}
+
+
+div.cat4::before {
+    background-color: var(--c4-color);
+}
+
+div.author {
+    /* margin: 0em 0 0 0; */
+    color: var(--author-color);
+}
+
+.presenter {
+    color: var(--presenter-color);
+    font-weight: 600;
+}
+
+div.abstract {
+    margin: 0.1em 0 0 0;
+}
+
+.button {
+    display: none;
+}
+
+div.citation {
+    margin: 0.1em 0 0 0;
+}
+
+span.title {
+    font-family: sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+span.cat,
+span.is_student,
+span.poster_style {
+    display: inline-block;
+    color: var(--label-color);
+    background-color: var(--label-background-color);
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.8rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    vertical-align: text-bottom;
+}
+
+span.is_student {
+    color: var(--label-student-color);
+    background-color: var(--label-student-background-color);
+}
+
+span.ps_poster {
+    background-color: var(--label-psposter-background-color);
+}
+
+span.ps_demo {
+    background-color: var(--label-psdemo-background-color);
+}
+
+span.ps_both {
+    background: linear-gradient(to right, var(--label-psposter-background-color), var(--label-psdemo-background-color));
+}
+
+.affil_num {
+    vertical-align: super;
+    font-size: 0.8em;
+}
+
+.affil_name+.affil_num {
+    margin-left: 0.3rem;
+}
+
+.names {
+    margin-right: 0.5em;
+}
+
+.affiliation {
+    display: inline-block;
+}
+
+.affiliation::before {
+    display: inline;
+    content: '(';
+}
+
+.affiliation::after {
+    display: inline;
+    content: ')';
+}
+
+
+div.abstract {
+    border-top: 1px solid #999;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    color: var(--abstract-color);
+}
+
+div.abstract p::before {
+    content: '概要';
+    margin-right: 0.5em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+span.paper_source {
+    display: inline-block;
+    margin-top: 0.5em;
+    font-size: 90%;
+    color: var(--paper_source_color);
+}
+
+span.paper_source::before {
+    content: '出典：';
+    display: inline-block;
+}
+
+div.abstract p {
+    margin: 0px;
+}
+
+.presentation_id {
+    display: inline-block;
+    color: var(--presentation-id-color);
+}
+
+.presentation_id::before {
+    content: '#';
+    display: inline;
+}
+
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    height: 0em;
+    border-style: none;
+    border-bottom: 0.1rem solid var(--title-color);
+}
