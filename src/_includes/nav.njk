@@ -7,7 +7,7 @@
       {%- set current = page.url | replace('/','') -%}
     {%- endif -%}
     {%- if current == item.url -%}
-      <li><span class="current">{{ item.label }}</span></li>
+      <li><a href="{{ item.url }}" aria-current="page">{{ item.label }}</a></li>
     {%- else -%}
       <li><a href="{{ item.url }}">{{ item.label }}</a></li>
     {%- endif -%}

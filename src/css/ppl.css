@@ -367,6 +367,15 @@ ul.navibar li a:hover  {
     background-color: var(--hover-color);
 }
 
+ul.navibar li a[aria-current="page"] {
+    background-color: var(--main-color);
+    color: black;
+
+    border-top-left-radius:  0.5em;
+    border-top-right-radius: 0.5em;
+    padding: 0.2em 1em 0.2em 1em;
+}
+/*
 ul.navibar li span.current {
     display: block;
     padding: 0.2em 1em 0.2em 1em;
@@ -375,7 +384,7 @@ ul.navibar li span.current {
     border-top-left-radius:  0.5em;
     border-top-right-radius: 0.5em;
     color: black;
-}
+}*/
 
 /* So-called clearfix hack */
 .cf:before,
