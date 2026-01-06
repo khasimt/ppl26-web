@@ -1,6 +1,6 @@
 module.exports = [
   { label: "Top", url: "index.html", enabled: true },
-  { label: "招待講演", url: "invited.html", enabled: false }, 
+  { label: "招待講演", url: "invited.html", enabled: true }, 
   { label: "採択リスト", url: "accepted.html", enabled: false },
   { label: "プログラム", url: "program.html", enabled: false },
   { label: "参加登録要領", url: "registration.html", enabled: false },

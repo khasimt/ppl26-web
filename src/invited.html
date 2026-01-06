@@ -1,0 +1,66 @@
+---
+permalink: invited.html
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link charset="euc-jp" href="./css/ppl.css" rel="stylesheet" type="text/css">
+<title>招待講演 -- PPL 2026</title>
+</head>
+
+<body>
+
+<div id="headline">
+<img src="./images/jssstppl_logo_hl.png" alt="jssst sig-ppl">
+</div>
+{% include "nav.njk" %}
+
+<h1>PPL 2026：招待講演</h1>
+
+<div class="notice shadow">
+  <p>PPL2026では，以下の<em>2件の招待講演</em>を予定しております．</p>
+  <table>
+      <tr align="left">
+        <th><a href="https://web.wakayama-u.ac.jp/~sakama/j-index.html">坂間 千秋</a></th>
+        <td class="affil">和歌山大学</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><a href="#invited1">記号の再定義：LLMとシンボリックAIの新たな協奏</a></td>
+      </tr>
+      <tr align="left">
+        <th><a href="https://sites.google.com/view/shosonoda/">園田 翔</a></th>
+        <td class="affil">理化学研究所・サイバーエージェント</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><a href="#invited2">AI援用数学の現状と実践</td>
+      </tr>
+  </table>
+  </div>
+
+<h2 id="invited2">招待講演 (1)　記号の再定義：LLMとシンボリックAIの新たな協奏</h2>
+<div class="section">
+<p class="speaker">
+坂間 千秋（和歌山大学）
+</p>
+<h3>概要</h3>
+<p>論理プログラミングに代表されるシンボリックAIは記号論理に基づく知識表現と厳密な推論を実現するAI研究の主軸であったが，深層学習の発展によりAIの主流は統計的推論へと移行した．その後，説明可能なAIを実現するために，記号の明示性とニューラルネットワークの学習能力を統合する「ニューロシンボリックAI」が提唱されたが，最近の大規模言語モデル（LLM）はChain-of-Thought等の技術により推論プロセスの言語化という疑似的な説明性を獲得しつつある．しかし，LLMの本質は高次元の統計的相関であり，長鎖推論の正当性や厳密な整合性を自律的に検証する能力には限界があることから，記号推論はLLMの出力に対する検証器としての役割を果たす．一方，LLMの高度なコード生成能力は，人間にとって難解であった論理式の記述やプログラミングを劇的に省力化し，自然言語から実行可能な論理プログラムへの変換を加速させる．つまり，LLMはシンボリックAIの弱点であった「記述の難しさ」を担い，シンボリックAIはLLMの弱点である「真偽の接地」を担うという相補的関係が成立する．本講演では，この双方向の貢献がもたらすニューロシンボリックAIの新展開について，最新の推論モデルとの比較を交えて考察する．</p>
+<h3>略歴</h3>
+<p>東芝総合研究所，通産省第五世代コンピュータプロジェクト(ICOT)などを経て，2005年より和歌山大学システム工学部教授(現職)．京都大学博士(工学)．人工知能の基礎研究，とりわけ計算論理，知識表現と推論，機械学習などの研究に携わっている．</p>
+</div>
+
+<h2 id="invited1">招待講演 (2)　AI援用数学の現状と実践</h2>
+<div class="section">
+<p class="speaker">
+園田 翔（理化学研究所・サイバーエージェント）
+</p>
+
+<h3>概要</h3>
+<p>生成AIを援用した数学的推論，特に数学的命題の生成・証明タスクについて，現状を俯瞰する．まず最近のAI援用数学研究の動向を俯瞰したあと，講演者らの取り組み（大規模言語モデルを用いたLean形式の定理生成システム）を紹介する．時間があれば手動の形式化や機械学習理論的な話題についても触れる．</p>
+<h3>略歴</h3>
+<p>2017年3月に早稲田大学より学位取得．博士（工学）．専門は機械学習の理論と応用．同年早稲田大学にて助手．2018年より理化学研究所革新知能統合研究センターにて深層学習理論の研究に従事．特別研究員，研究員を経て2024年より上級研究員．2025年よりJST BOOSTに伴うクロスアポイントメント制度を介してサイバーエージェントAI事業本部にてリサーチサイエンティスト．定理証明AIの理論と応用の研究に従事．</p>
+</div>
+
+</body>
