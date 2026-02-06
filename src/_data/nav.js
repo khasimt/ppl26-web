@@ -2,7 +2,7 @@ module.exports = [
   { label: "Top", url: "index.html", enabled: true },
   { label: "招待講演", url: "invited.html", enabled: true }, 
   { label: "採択リスト", url: "accepted.html", enabled: true },
-  { label: "プログラム", url: "program.html", enabled: false },
+  { label: "プログラム", url: "program.html", enabled: true },
   { label: "参加登録要領", url: "registration.html", enabled: true },
   { label: "募集要項", url: "calling.html", enabled: true },
   { label: "投稿・発表申込要項", url: "submission.html", enabled: true },
