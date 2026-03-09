@@ -1,0 +1,5489 @@
+{
+  "parts": [
+    {
+      "id": "first_afternoon",
+      "title": "1日目午後の部 (3月9日 13:00–18:00)",
+      "events": [
+        {
+          "event_title": "13:00–13:10 オープニング",
+          "presentations": []
+        },
+        {
+          "event_title": "13:10–13:55 セッション1 言語設計 (座長：松下 祐介)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "IsoLang: a User-Friendly Reversible Programming Language with Inductive Types",
+              "authors": [
+                {
+                  "name": "Kosuke Onodera",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Keisuke Nakano",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Kazuyuki Asada",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Kentaro Kikuchi",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Graduate School of Information Sciences, Tohoku University"
+                },
+                {
+                  "num": "2",
+                  "name": "Research Institute of Electrical Communication, Tohoku University"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Lenses for Partially-Specified States",
+              "authors": [
+                {
+                  "name": "Kazutaka Matsuda",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Minh Nguyen",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Meng Wang",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Tohoku University"
+                },
+                {
+                  "num": "2",
+                  "name": "University of Bristol"
+                }
+              ],
+              "paper_source": "ESOP 2026"
+            }
+          ]
+        },
+        {
+          "event_title": "13:55–14:15 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "14:15–15:25 セッション2 正規表現 (座長：和賀正樹)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "例を用いた正規表現修正における文脈を考慮した一般化の導入と例記述規則の拡張",
+              "authors": [
+                {
+                  "name": "穴田 直也",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "寺内 多智弘",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "早稲田大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "Hardness of Regular Expression Matching with Extensions",
+              "authors": [
+                {
+                  "name": "Taisei Nogami",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Tachio Terauchi",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Waseda University"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "A Complete Propositional Dynamic Logic for Regular Expressions with Lookahead",
+              "authors": [
+                {
+                  "name": "Yoshiki Nakamura",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Chiba University"
+                }
+              ],
+              "paper_source": "FoSSaCS 2026"
+            }
+          ]
+        },
+        {
+          "event_title": "15:25–15:45 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "15:45–16:50 セッション3 教育・言語設計 (座長：鍋島 英知)",
+          "presentations": [
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Programming Language Case Studies Can Be Deep",
+              "authors": [
+                {
+                  "name": "Rose Bohrer",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Worcester Polytechnic Institute"
+                }
+              ],
+              "paper_source": "Trends in Functional Programming in Education 2024 (TFPiE)"
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Daisy: An Exercise Environment for Learning Information Modeling",
+              "authors": [
+                {
+                  "name": "Jessica Belicia Cahyono",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Youyou Cong",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Hidehiko Masuhara",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Institute of Science Tokyo"
+                }
+              ],
+              "paper_source": "ACM SIGPLAN International Symposium on SPLASH-E (SPLASH-E 2025)"
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "数理最適化向け埋め込み型領域特化言語 JijModeling 2 におけるプログラミング言語理論の応用について",
+              "authors": [
+                {
+                  "name": "石井 大海",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "清水 太朗",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "寺村 俊紀",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "株式会社 Jij"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event_title": "16:50–17:00 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "17:00–18:00 セッション4 ポスター・デモ発表 グループA (座長：橋本健二)",
+          "presentations": [
+            {
+              "css_class": "cat3",
+              "category": "",
+              "title": "",
+              "type": "poster_group_link",
+              "group_id": "pgroup-A",
+              "group_name": "グループA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "second_morning",
+      "title": "2日目午前の部 (3月10日 9:00–12:00)",
+      "events": [
+        {
+          "event_title": "9:00–10:10 セッション5 Rust・所有権/型システム (座長：佐藤 亮介)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "RustOwl: Rustにおける所有権とライフタイムの可視化",
+              "authors": [
+                {
+                  "name": "岡本 祐希",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "篠埜 功",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "芝浦工業大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "Towards Borrowable Ownership Types with Algebraic Effect Handlers",
+              "authors": [
+                {
+                  "name": "Peien Chen",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Yudai Tanabe",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Taro Sekiyama",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Institute of Science Tokyo"
+                },
+                {
+                  "num": "2",
+                  "name": "National Institute of Informatics"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Thrust: A Prophecy-based Refinement Type System for Rust",
+              "authors": [
+                {
+                  "name": "Hiromi Ogawa",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Taro Sekiyama",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Hiroshi Unno",
+                  "affil_nums": [
+                    "3"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "University of Tsukuba"
+                },
+                {
+                  "num": "2",
+                  "name": "National Institute of Informatics"
+                },
+                {
+                  "num": "3",
+                  "name": "Tohoku University"
+                }
+              ],
+              "paper_source": "Proceedings of the ACM on Programming Languages, Volume 9, Issue PLDI Article No.: 230, Pages 2056 - 2080"
+            }
+          ]
+        },
+        {
+          "event_title": "10:10–10:30 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "10:30–12:00 セッション6 継続・意味論 (座長：木村大輔)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "エフェクトハンドラを用いたワークスティーリングの実装",
+              "authors": [
+                {
+                  "name": "片桐 健人",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "佐藤 重幸",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "小宮 常康",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "電気通信大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "shift0/reset0 を含む型付き言語におけるCPS変換の正当性の証明",
+              "authors": [
+                {
+                  "name": "田村 優衣",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "浅井 健一",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "お茶の水女子大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Continuation Semantics for Fixpoint Modal Logic and Computation Tree Logics",
+              "authors": [
+                {
+                  "name": "Ryota Kojima",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Corina Cirstea",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "RIMS, Kyoto University"
+                },
+                {
+                  "num": "2",
+                  "name": "University of Southampton"
+                }
+              ],
+              "paper_source": "41st Conference on Mathematical Foundations of Programming Semantics MFPS XLI (MFPS 2025)"
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "A No-go Theorem for Coalgebraic Product Construction",
+              "authors": [
+                {
+                  "name": "Mayuko Kori",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Kazuki Watanabe",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "RIMS, Kyoto University"
+                },
+                {
+                  "num": "2",
+                  "name": "National Institute of Informatics"
+                }
+              ],
+              "paper_source": "29th International Conference on Foundations of Software Science and Computation Structures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "second_afternoon",
+      "title": "2日目午後の部 (3月10日 13:00–18:00)",
+      "events": [
+        {
+          "event_title": "13:00–14:00 セッション7 招待講演(1) (座長：西田直樹)",
+          "presentations": [
+            {
+              "css_class": "cat0",
+              "category": "招待講演",
+              "title": "記号の再定義：LLMとシンボリックAIの新たな協奏",
+              "speaker": "坂間 千秋",
+              "affiliation": "和歌山大学"
+            }
+          ]
+        },
+        {
+          "event_title": "14:00–14:20 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "14:20–15:30 セッション8 形式言語 (座長：中澤巧爾)",
+          "presentations": [
+            {
+              "css_class": "cat4",
+              "category": "C4",
+              "title": "形式言語の４つの決定問題：所属判定・包含判定・分離可能性・可測性",
+              "authors": [
+                {
+                  "name": "新屋 良磨",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "秋田大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Measuring Power of Commutative Group Languages",
+              "authors": [
+                {
+                  "name": "Takao Yuyama",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Ryoma Sin'Ya",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "ZEN University"
+                },
+                {
+                  "num": "2",
+                  "name": "Akita University"
+                }
+              ],
+              "paper_source": "28th International Conference on Implementation and Application of Automata (CIAA 2024)"
+            }
+          ]
+        },
+        {
+          "event_title": "15:30–15:50 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "15:50–16:40 セッション9 理論・合成 (座長：新屋良磨)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "プレスバーガー算術上の線形リストの論理体系の決定可能性",
+              "authors": [
+                {
+                  "name": "伊藤 宗平",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "龍田 真",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "長崎大学"
+                },
+                {
+                  "num": "2",
+                  "name": "国立情報学研究所 / 総合研究大学院大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "Recursive function synthesis based on structural relationships",
+              "authors": [
+                {
+                  "name": "Junyu Lin",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Akimasa Morihata",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "The University of Tokyo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event_title": "16:40–17:00 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "17:00–18:00 セッション10 ポスター・デモ発表 グループB (座長：橋本健二)",
+          "presentations": [
+            {
+              "css_class": "cat3",
+              "category": "",
+              "title": "",
+              "type": "poster_group_link",
+              "group_id": "pgroup-B",
+              "group_name": "グループB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "third_morning",
+      "title": "3日目午前の部 (3月11日 9:00–12:00)",
+      "events": [
+        {
+          "event_title": "9:00–10:10 セッション11 言語処理系・言語基盤 (座長：平石拓)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "ASTro による JIT コンパイラの試作",
+              "authors": [
+                {
+                  "name": "笹田 耕一",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "STORES株式会社"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "Implementation of Lox Language Using ASTro Interpreter Optimizer",
+              "authors": [
+                {
+                  "name": "Fengcheng Wang",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Koichi Sasada",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Tomoharu Ugawa",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "The University of Tokyo"
+                },
+                {
+                  "num": "2",
+                  "name": "STORES, Inc."
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Graph Rewriting Language as a Platform for Quantum Diagrammatic Calculi",
+              "authors": [
+                {
+                  "name": "Kayo Tei",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Haruto Mishina",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Naoki Yamamoto",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Kazunori Ueda",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Waseda University"
+                }
+              ],
+              "paper_source": "PADL 2026"
+            }
+          ]
+        },
+        {
+          "event_title": "10:10–10:30 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "10:30–12:00 セッション12 検証・プログラム解析 (座長：石井 大輔)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "転置構文木を用いたギャップを含むコードクローン検出手法",
+              "authors": [
+                {
+                  "name": "上野 雄大",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "篠埜 功",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "新潟大学"
+                },
+                {
+                  "num": "2",
+                  "name": "芝浦工業大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "Verification of the Garsia–Wachs Algorithm",
+              "authors": [
+                {
+                  "name": "Makoto Kanazawa",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Hosei University"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "StatWhy: 仮説検定プログラムのための形式検証ツール",
+              "authors": [
+                {
+                  "name": "川本 裕輔",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "小林 賢太朗",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "末永 幸平",
+                  "affil_nums": [
+                    "3"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "産業技術総合研究所"
+                },
+                {
+                  "num": "2",
+                  "name": "筑波大学 / 産業技術総合研究所"
+                },
+                {
+                  "num": "3",
+                  "name": "京都大学"
+                }
+              ],
+              "paper_source": "The 37th International Conference on Computer Aided Verification (CAV2025)"
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators",
+              "authors": [
+                {
+                  "name": "Izumi Tanaka",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Ken Sakayori",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Shinya Takamaeda-Yamazaki",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Naoki Kobayashi",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "The University of Tokyo"
+                }
+              ],
+              "paper_source": "ESOP2026（発表予定）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "third_afternoon",
+      "title": "3日目午後の部 (3月11日 13:00–18:00)",
+      "events": [
+        {
+          "event_title": "13:00–13:05 スポンサートーク：プラチナスポンサー <a href=\"https://kxc.inc/\">合同会社コトイコンサルタンシー</a>様",
+          "presentations": []
+        },
+        {
+          "event_title": "13:05–14:05 セッション13 招待講演(2) (座長：宋 剛秀)",
+          "presentations": [
+            {
+              "css_class": "cat0",
+              "category": "招待講演",
+              "title": "AI援用数学の現状と実践",
+              "speaker": "園田 翔",
+              "affiliation": "理化学研究所・サイバーエージェント"
+            }
+          ]
+        },
+        {
+          "event_title": "14:05–14:25 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "14:25–15:35 セッション14 言語処理系・動的最適化 (座長：田中 哲)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "トレーシングJITコンパイラを用いた多段階計算の高速かつ簡易な実行方式",
+              "authors": [
+                {
+                  "name": "吉村 友成",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "田邉 裕大",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "増原 英彦",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "東京科学大学"
+                }
+              ]
+            },
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "RubyにおけるDOALL+Reduction型ループの投機的並列化機構LRactor",
+              "authors": [
+                {
+                  "name": "Jinsong Yu",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "笹田 耕一",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "鵜川 始陽",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "東京大学"
+                },
+                {
+                  "num": "2",
+                  "name": "STORES株式会社"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Hyper pattern matching",
+              "authors": [
+                {
+                  "name": "Masaki Waga",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Étienne André",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Kyoto University"
+                },
+                {
+                  "num": "2",
+                  "name": "Nantes Université"
+                }
+              ],
+              "paper_source": "The 25th International Conference on Runtime Verification (RV 2025)"
+            }
+          ]
+        },
+        {
+          "event_title": "15:35–15:55 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "15:55–16:45 セッション15 セキュリティ (座長：住井 英二郎)",
+          "presentations": [
+            {
+              "css_class": "cat4",
+              "category": "C4",
+              "title": "マルウェア解析のためのバイナリコード上の動的記号実行",
+              "authors": [
+                {
+                  "name": "小川 瑞史",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "NPO \"Old Teachers Network\"・JAIST"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event_title": "16:45–17:00 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "17:00–18:00 セッション16 ポスター・デモ発表 グループC (座長：橋本健二)",
+          "presentations": [
+            {
+              "css_class": "cat3",
+              "category": "",
+              "title": "",
+              "type": "poster_group_link",
+              "group_id": "pgroup-C",
+              "group_name": "グループC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fourth_morning",
+      "title": "4日目午前の部 (3月12日 9:00–12:30)",
+      "events": [
+        {
+          "event_title": "9:00–10:05 セッション17 ソフトウェア運用・セキュリティ/検証 (座長：土屋達弘)",
+          "presentations": [
+            {
+              "css_class": "cat1",
+              "category": "C1",
+              "title": "Multi-Version Objects: Mediating Object Access in Mixed-Version Programs for Python",
+              "authors": [
+                {
+                  "name": "Satsuki Kasuya",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Yudai Tanabe",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Hidehiko Masuhara",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Institute of Science Tokyo, School of Computing, Mathematical and Computing Science"
+                },
+                {
+                  "num": "2",
+                  "name": "Institute of Science Tokyo, School of Computing"
+                }
+              ]
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Efficient Black-Box Checking with Specification-Guided Abstraction",
+              "authors": [
+                {
+                  "name": "Tsubasa Matsumoto",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Kazuki Watanabe",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Kohei Suenaga",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Masaki Waga",
+                  "affil_nums": [
+                    "3"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Kyoto University"
+                },
+                {
+                  "num": "2",
+                  "name": "National Institute of Informatics"
+                },
+                {
+                  "num": "3",
+                  "name": "Kyoto University / National Institute of Informatics"
+                }
+              ],
+              "paper_source": "EMSOFT 2025"
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "A Secure Mocking Approach towards Software Supply Chain Security",
+              "authors": [
+                {
+                  "name": "Daisuke Yamaguchi",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Shinobu Saito",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Takuya Iwatsuka",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Nariyoshi Chida",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Tachio Terauchi",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "NTT, Inc."
+                },
+                {
+                  "num": "2",
+                  "name": "Waseda University"
+                }
+              ],
+              "paper_source": "The 40th IEEE/ACM International Conference on Automated Software Engineering, New Ideas and Emerging Results Track (ASE-NIER 2025)"
+            }
+          ]
+        },
+        {
+          "event_title": "10:05–10:25 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "10:25–11:25 セッション18 理論・数理的基盤 (座長：石井 大輔)",
+          "presentations": [
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "On Piecewise Affine Reachability with Bellman Operators",
+              "authors": [
+                {
+                  "name": "Anton Varonka",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Kazuki Watanabe",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "TU Wien"
+                },
+                {
+                  "num": "2",
+                  "name": "National Institute of Informatics / The Graduate University for Advanced Studies (SOKENDAI)"
+                }
+              ],
+              "paper_source": "50th International Symposium on Mathematical Foundations of Computer Science (MFCS2025)"
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Chance and Mass Interpretations of Probabilities in Markov Decision Processes",
+              "authors": [
+                {
+                  "name": "Yun Chen Tsai",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                },
+                {
+                  "name": "Kittiphon Phalakarn",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "S. Akshay",
+                  "affil_nums": [
+                    "2"
+                  ],
+                  "is_presenter": false
+                },
+                {
+                  "name": "Ichiro Hasuo",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": false
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "National Institute of Informatics"
+                },
+                {
+                  "num": "2",
+                  "name": "IIT Bombay"
+                }
+              ],
+              "paper_source": "the 36th International Conference on Concurrency Theory (CONCUR 2025)"
+            },
+            {
+              "css_class": "cat2",
+              "category": "C2",
+              "title": "Homological Invariants of Higher-Order Equational Theories",
+              "authors": [
+                {
+                  "name": "Mirai Ikebuchi",
+                  "affil_nums": [
+                    "1"
+                  ],
+                  "is_presenter": true
+                }
+              ],
+              "affiliations": [
+                {
+                  "num": "1",
+                  "name": "Kyoto University"
+                }
+              ],
+              "paper_source": "LICS 2025"
+            }
+          ]
+        },
+        {
+          "event_title": "11:25–11:45 休憩",
+          "presentations": []
+        },
+        {
+          "event_title": "11:45–12:30 クロージング",
+          "presentations": []
+        }
+      ]
+    }
+  ],
+  "poster_groups": [
+    {
+      "id": "pgroup-A",
+      "name": "グループA",
+      "posters": [
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "MN-Core向けOpenACC及びMNCLの言語処理系の開発進展について",
+          "presentation_id": 5,
+          "is_student": false,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "綱島 隆太",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中里 直人",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "鈴木 量三朗",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "遠藤 克浩",
+              "affil_nums": [
+                "4"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "井町 宏人",
+              "affil_nums": [
+                "5"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "牧野 淳一郎",
+              "affil_nums": [
+                "6"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "神戸大学"
+            },
+            {
+              "num": "2",
+              "name": "会津大学"
+            },
+            {
+              "num": "3",
+              "name": "有限会社シンビー"
+            },
+            {
+              "num": "4",
+              "name": "産業技術総合研究所"
+            },
+            {
+              "num": "5",
+              "name": "株式会社Preferred Networks"
+            },
+            {
+              "num": "6",
+              "name": "株式会社Preferred Networks、神戸大学"
+            }
+          ],
+          "new_id": 1
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "拡張パラダイムーー継承とオブジェクト指向を再評価する",
+          "presentation_id": 6,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "殿畑 太朗",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "湘南工科大学情報学部情報工学専攻"
+            }
+          ],
+          "new_id": 2
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Solvable Tuple Patterns",
+          "presentation_id": 9,
+          "is_student": false,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "Naoki Kobayashi",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Ryosuke Sato",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Ayumi Shinohara",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Ryo Yoshinaka",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "The University of Tokyo"
+            },
+            {
+              "num": "2",
+              "name": "Tokyo University of Agriculture and Technology"
+            },
+            {
+              "num": "3",
+              "name": "Tohoku University"
+            }
+          ],
+          "new_id": 3
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "グラフ書き換え言語 LMNtal による代数的効果とハンドラのエンコード",
+          "presentation_id": 12,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "岡村 朋佳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "山本 直輝",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "上田 和紀",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "早稲田大学"
+            }
+          ],
+          "new_id": 4
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Observer Construction and Opacity Verification Tool for One-Clock Timed Automata",
+          "presentation_id": 21,
+          "is_student": false,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "Chao GAO",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 5
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "スマートコントラクトに対するLiveness検証のためのRocqライブラリ",
+          "presentation_id": 29,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "諸冨 速人",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "西田 雄気",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学大学院情報科学研究科"
+            }
+          ],
+          "new_id": 6
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "WebAssembly 上で動作する言語ランタイムにおけるヒープ外部化アーキテクチャの検討",
+          "presentation_id": 31,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "野牧 樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中井 央",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "三宮 秀次",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "筑波大学理工情報生命学術院システム情報工学研究群"
+            },
+            {
+              "num": "2",
+              "name": "筑波大学図書館情報メディア系"
+            },
+            {
+              "num": "3",
+              "name": "筑波大学システム情報系"
+            }
+          ],
+          "new_id": 7
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "WebAssemblyを対象とした基本ブロックバージョニング方式JITコンパイラ",
+          "presentation_id": 32,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "古賀 壮",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小宮 常康",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "電気通信大学"
+            }
+          ],
+          "new_id": 8
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "発表取り下げ",
+          "presentation_id": 1,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "new_id": 9
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Prioritized Streaming String Transducer による逆像計算の高速化",
+          "presentation_id": 2,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "千田 忠賢",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "山口 大輔",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "上川 先之",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "NTT社会情報研究所"
+            },
+            {
+              "num": "2",
+              "name": "NTTコンピュータ&データサイエンス研究所"
+            }
+          ],
+          "new_id": 10
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "On Soundness of Ranking Supermartingales under Weak Non-negativity",
+          "presentation_id": 3,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "滝坂 透",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Hongjie Qing",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Libo Zhang",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "電子科技大学"
+            },
+            {
+              "num": "2",
+              "name": "University of Auckland"
+            }
+          ],
+          "new_id": 11
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Maudeによる量子算術演算回路の形式検証",
+          "presentation_id": 4,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "佐藤 直人",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "髙木 翼",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "北陸先端科学技術大学院大学"
+            }
+          ],
+          "new_id": 12
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "A Real-Blasting Extension of cvc5 for Reasoning About Floating-Point Arithmetic",
+          "presentation_id": 7,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "石井 大輔",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "北陸先端科学技術大学院大学"
+            }
+          ],
+          "new_id": 13
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "モデル解釈に基づく帰納論理プログラミングの高速化",
+          "presentation_id": 8,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "中澤 朋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "滝本 宗宏",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京理大学大学院創域理工学研究科情報計算科学専攻"
+            },
+            {
+              "num": "2",
+              "name": "東京理大学創域理工学研究科情報計算科学科"
+            }
+          ],
+          "new_id": 14
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "JavaScriptにおける静的最適化と動的性質の統合と評価",
+          "presentation_id": 91,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "笠 将稀",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "岩崎 英哉",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "明治大学理工学部"
+            }
+          ],
+          "new_id": 15
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Answer-Type Modification for Lexical Effect Handlers",
+          "presentation_id": 11,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "Kai Pischke",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "孫 耀珠",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "関山 太朗",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "University of Oxford"
+            },
+            {
+              "num": "2",
+              "name": "国立情報学研究所"
+            }
+          ],
+          "new_id": 16
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "多相的ラムダ計算のモデル検査が決定可能なフラグメントとその応用",
+          "presentation_id": 13,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "橋本 拓郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "塚田 武志",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "千葉大学"
+            }
+          ],
+          "new_id": 17
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "revGo: Go言語の可逆デバッグに向けた拡張",
+          "presentation_id": 14,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "小口 隼矢",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "結縁 祥治",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "吉田 展子",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Claudio Antares Mezzina",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "名古屋大学"
+            },
+            {
+              "num": "2",
+              "name": "オックスフォード大学"
+            },
+            {
+              "num": "3",
+              "name": "ウルビーノ大学"
+            }
+          ],
+          "new_id": 18
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "JavaScript 処理系におけるオブジェクトへの属性アクセスの最適化",
+          "presentation_id": 93,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "山内 望",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "岩崎 英哉",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "明治大学 大学院理工学研究科"
+            },
+            {
+              "num": "2",
+              "name": "明治大学 理工学部"
+            }
+          ],
+          "new_id": 19
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Delimited Information Release ポリシーの自動合成",
+          "presentation_id": 16,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "中山 祐貴",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "寺内 多智弘",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "早稲田大学"
+            }
+          ],
+          "new_id": 20
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "PHOAS を応用した Rocq 上での代数的効果の形式化手法の検討と証明の自動化",
+          "presentation_id": 17,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "井本 有哉",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "池渕 未来",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 21
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "グラフアテンションに基づく微分可能なMaxSAT解法",
+          "presentation_id": 18,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "森山 総太",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "井上 克巳",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "総合研究大学院大学、国立情報学研究所"
+            },
+            {
+              "num": "2",
+              "name": "国立情報学研究所"
+            }
+          ],
+          "new_id": 22
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "高水準記述を扱う誤り耐性量子計算向けコンパイラ",
+          "presentation_id": 19,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "渡邉 雄貴",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "塚田 武志",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "鈴木 泰成",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "千葉大学"
+            },
+            {
+              "num": "2",
+              "name": "理化学研究所"
+            }
+          ],
+          "new_id": 23
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "IFNライブラリの精度制御機構の改良",
+          "presentation_id": 99,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "川浦 孟士",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "岩崎 英哉",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "明治大学 理工学部"
+            }
+          ],
+          "new_id": 24
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Juliaノートブック環境の高速化を目指すアノテーションに基づく編集認識型JITコンパイル手法",
+          "presentation_id": 23,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "伊澤 侑祐",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中丸 智貴",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "山崎 徹郎",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京都立大学システムデザイン研究科"
+            },
+            {
+              "num": "2",
+              "name": "東京大学大学院総合文化研究科"
+            },
+            {
+              "num": "3",
+              "name": "東京大学"
+            }
+          ],
+          "new_id": 25
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "eBPFプログラムの機能正当性検証のためのモデル検査と実行時検証の統合",
+          "presentation_id": 24,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "神 拓己",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "和賀 正樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "末永 幸平",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学大学院情報学研究科"
+            }
+          ],
+          "new_id": 26
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Racket と Agda における設計思想および適用領域の比較",
+          "presentation_id": 25,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "福田 心美",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "浅井 健一",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "お茶の水女子大学附属高等学校"
+            },
+            {
+              "num": "2",
+              "name": "お茶の水女子大学"
+            }
+          ],
+          "new_id": 27
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "高階関数型部分可逆プログラミング言語における配列操作",
+          "presentation_id": 27,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "須藤 龍一",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "松田 一孝",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学工学部電気情報物理工学科"
+            },
+            {
+              "num": "2",
+              "name": "東北大学大学院情報科学研究科"
+            }
+          ],
+          "new_id": 28
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Temporal Algebraic Effect Handlers",
+          "presentation_id": 28,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "LIU Yulong",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "SEKIYAMA Taro",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "NII"
+            }
+          ],
+          "new_id": 29
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "漸進的借用検査を導入したRust言語のMIRインタプリタによる実現",
+          "presentation_id": 30,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "両角 颯",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "山崎 徹郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "千葉 滋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            }
+          ],
+          "new_id": 30
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "グラフ書き換え言語の中間命令列最適化および中間命令内でのバックトラックの削減",
+          "presentation_id": 33,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "松村 陽輝",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "上田 和紀",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "早稲田大学"
+            }
+          ],
+          "new_id": 31
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "再現性を保証する同期型並列ASPソルバーの設計と実装",
+          "presentation_id": 34,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "桂 献一郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "鍋島 英知",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "山梨大学大学院医工農学総合教育部工学専攻コンピュータ理工学コース"
+            },
+            {
+              "num": "2",
+              "name": "山梨大学大学院総合研究部工学域電気電子情報工学系"
+            }
+          ],
+          "new_id": 32
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "A Secure Mocking Approach towards Software Supply Chain Security",
+          "presentation_id": 35,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "Daisuke Yamaguchi",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Shinobu Saito",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Takuya Iwatsuka",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Nariyoshi Chida",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Tachio Terauchi",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "NTT, Inc."
+            },
+            {
+              "num": "2",
+              "name": "Waseda University"
+            }
+          ],
+          "new_id": 33
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Timed Perception Pattern Matching using Spatial Timed Automata",
+          "presentation_id": 36,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "YU HAIXIANG",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "和賀 正樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学 大学院 情報学研究科"
+            }
+          ],
+          "new_id": 34
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "配列を含む分離論理のエンテイルメント問題と プログラム検証",
+          "presentation_id": 101,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "吉田 流晟",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "木村 大輔",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東邦大学大学院理学研究科"
+            }
+          ],
+          "new_id": 35
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Formalizing the Banach-Zarecki Theorem using Dependent Types",
+          "presentation_id": 107,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "石黒 吉洋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "名古屋大学多元数理科学研究科"
+            }
+          ],
+          "new_id": 36
+        }
+      ]
+    },
+    {
+      "id": "pgroup-B",
+      "name": "グループB",
+      "posters": [
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "プログラミング言語 Nim の型システムに関する理論的考察",
+          "presentation_id": 22,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "品川 拓弥",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "住井 英二郎",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学 工学部"
+            },
+            {
+              "num": "2",
+              "name": "東北大学 大学院 情報科学研究科"
+            }
+          ],
+          "new_id": 37
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "C/Rust相互運用におけるコンパイラバグのファジングによる探索",
+          "presentation_id": 26,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "清水 琢也",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "酒寄 健",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "小林 直樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            }
+          ],
+          "new_id": 38
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "RustOwl: Rustにおける所有権とライフタイムの可視化",
+          "presentation_id": 38,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "岡本 祐希",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "篠埜 功",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "芝浦工業大学"
+            }
+          ],
+          "new_id": 39
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "データフロー解析に基づくRuby型解析器の実アプリケーションへの適用と評価",
+          "presentation_id": 52,
+          "is_student": false,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "遠藤 侑介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "STORES, Inc."
+            }
+          ],
+          "new_id": 40
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Blocklyへの外部拡張によるOCaml型推論システムの導入とその差分分析",
+          "presentation_id": 53,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "岩田 菜々実",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "浅井 健一",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "お茶の水女子大学"
+            }
+          ],
+          "new_id": 41
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "生成AIを用いた型安全性証明のRocqコード生成",
+          "presentation_id": 54,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "田子内 龍介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "住井 英二郎",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学工学部"
+            },
+            {
+              "num": "2",
+              "name": "東北大学大学院情報科学研究科"
+            }
+          ],
+          "new_id": 42
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "ニューラルネットワークによる辞書式ランキング関数の合成",
+          "presentation_id": 61,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "朱 光漪",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小林 直樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "酒寄 健",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            }
+          ],
+          "new_id": 43
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "ポインタ演算と多次元配列のための所有権篩型システム",
+          "presentation_id": 64,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "藤原 佑輔",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "松下 祐介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "末永 幸平",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学大学院情報学研究科"
+            }
+          ],
+          "new_id": 44
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "ASPソルバー求解可視化ツールの開発",
+          "presentation_id": 49,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "山下 知哉",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "上田 和紀",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "早稲田大学基幹理工学部情報理工学科"
+            }
+          ],
+          "new_id": 45
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "関数型言語のバグ発見のための篩型システム",
+          "presentation_id": 39,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "佐藤 聡太",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "松下 祐介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "末永 幸平",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学大学院情報学研究科"
+            }
+          ],
+          "new_id": 46
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "プログラム全体を考慮した関数ごとのLLMによるコード生成・修正プログラミングシステムの開発に向けて",
+          "presentation_id": 40,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "榊原 麻衣",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "山崎 徹郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "千葉 滋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学情報理工学研究科"
+            }
+          ],
+          "new_id": 47
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "エフェクトハンドラを用いたワークスティーリングの実装",
+          "presentation_id": 41,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "片桐 健人",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "佐藤 重幸",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "小宮 常康",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "電気通信大学"
+            }
+          ],
+          "new_id": 48
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Selectively Appending Inferred Type Annotations to Improve the Efficiency of Gradually Typed Programs",
+          "presentation_id": 42,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "楊 恒宇",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "李 森曦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "戴 峰",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "山崎 徹郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "千葉 滋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学情報理工学系研究科"
+            }
+          ],
+          "new_id": 49
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "サンドボックス的アプローチによるRustにおける循環参照の構築を支援するシステムの試作",
+          "presentation_id": 43,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "坂本 洸亮",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "山崎 徹郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "千葉 滋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学情報理工学系研究科"
+            }
+          ],
+          "new_id": 50
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "回路型から測定型への変換と最適化による量子計算の形式検証",
+          "presentation_id": 44,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "名越 龍一",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "髙木 翼",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "JAIST"
+            }
+          ],
+          "new_id": 51
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Rustライブラリのスレッド安全性に関するバグのプログラム合成による発見",
+          "presentation_id": 45,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "岡田 大空",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "松下 祐介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 52
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "無限長証明を持つ順序ソート条件付き等式論理の到達可能完全性定理",
+          "presentation_id": 46,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "孫 泰昇",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "高木 翼",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "北陸先端科学技術大学院大学"
+            }
+          ],
+          "new_id": 53
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "タイムスタンプ付き預言を用いたチャネルに基づく並行プログラムの全自動検証",
+          "presentation_id": 47,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "永冨 敬士",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小林 直樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "酒寄 健",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            }
+          ],
+          "new_id": 54
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "正規表現マッチングのメモ化アルゴリズムのDafnyによる実装と検証",
+          "presentation_id": 48,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "木下 まひな",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "南出 靖彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学情報理工学院数理・計算科学系"
+            }
+          ],
+          "new_id": 55
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "LLMを用いたCUDAプログラムの生成の精度向上を目指した修正フィードバックの試作",
+          "presentation_id": 37,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "松本 紘周",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "山崎 徹郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "千葉 滋",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学大学院情報理工学系研究科"
+            }
+          ],
+          "new_id": 56
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "正格性型付けの再考",
+          "presentation_id": 50,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "稻吉 悠羽",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小林 直樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "酒寄 健",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            }
+          ],
+          "new_id": 57
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "CHCに基づくWebAssemblyの到達不可能性検証",
+          "presentation_id": 51,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "八木 瑛久",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小林 直樹",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "酒寄 健",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学理学部情報科学科"
+            },
+            {
+              "num": "2",
+              "name": "東京大学大学院情報理工学系研究科"
+            }
+          ],
+          "new_id": 58
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Forth処理系に対するMeta-tracing JITコンパイラの適用と性能評価",
+          "presentation_id": 55,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "袴田 康太",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "伊澤 侑祐",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京都立大学システムデザイン学部"
+            },
+            {
+              "num": "2",
+              "name": "東京都立大学システムデザイン研究科"
+            }
+          ],
+          "new_id": 59
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "論理制約付き項書き換えシステムのためのクヌース・ベンディックス順序の提案",
+          "presentation_id": 56,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "笹倉 千楓",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "青戸 等人",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "新潟大学工学部"
+            }
+          ],
+          "new_id": 60
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "仮想選択ビュー上の更新操作に対する関数従属性を考慮した基底表への翻訳",
+          "presentation_id": 57,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "近藤 湧太",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "日高 宗一郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "法政大学 情報科学研究科"
+            }
+          ],
+          "new_id": 61
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "リフレクションによる時刻の扱い",
+          "presentation_id": 58,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "鈴木 季",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "森口 草介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "渡部 卓雄",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学情報理工学院情報工学コース"
+            }
+          ],
+          "new_id": 62
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Accelerating Data-Intensive Search via a Staged DSL for Effect Handlers",
+          "presentation_id": 59,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "Weiyi Zhuang",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Akimasa Morihata",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "The University of Tokyo"
+            }
+          ],
+          "new_id": 63
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Lean4による関係計算の形式化",
+          "presentation_id": 60,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "早川 銀河",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "溝口 佳寛",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "九州大学大学院数理学府"
+            },
+            {
+              "num": "2",
+              "name": "九州大学マス・フォア・インダストリ研究所"
+            }
+          ],
+          "new_id": 64
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "アフィン量子ラムダ計算と双模倣性について",
+          "presentation_id": 62,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "柏木 力哉",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 65
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Monadic Metaprogramming with Bananas, Lenses and Envelopes: A Fusion Framework",
+          "presentation_id": 63,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "李 張帆",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "亀山 幸義",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "筑波大学"
+            }
+          ],
+          "new_id": 66
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "動的な借用検査を活用したUnsafe Rustコードの正当性検査",
+          "presentation_id": 66,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "桂 武蔵",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "松下 祐介",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "小林 直樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "酒寄 健",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            },
+            {
+              "num": "2",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 67
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "量的不動点論理を用いた確率的プログラム検証のためのLoop Acceleration",
+          "presentation_id": 69,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "門馬 琢磨",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Clovis Eberhart",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "海野 広志",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学工学部電気情報物理工学科"
+            },
+            {
+              "num": "2",
+              "name": "東北大学電気通信研究所"
+            }
+          ],
+          "new_id": 68
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "型に基づくRust API探索の手法と実装",
+          "presentation_id": 70,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "後藤 将之",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "松下 祐介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 69
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "JETLS.jl: 静的解析とランタイム情報を掛け合わせた Julia 言語の高機能 Language Serverの実装",
+          "presentation_id": 105,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "門脇 宗平",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "山口 悠地",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "森口 草介",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "渡部 卓雄",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "JuliaHub, Inc."
+            },
+            {
+              "num": "2",
+              "name": "東京科学大学"
+            }
+          ],
+          "new_id": 70
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "冪等関数のためのプログラミング言語",
+          "presentation_id": 106,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "山田 龍之介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中野 圭介",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学 電気情報物理工学科"
+            },
+            {
+              "num": "2",
+              "name": "東北大学 電気通信研究所"
+            }
+          ],
+          "new_id": 71
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Rustイテレータのためのリファインメント型推論",
+          "presentation_id": 108,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "植原 一希",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小川 広水",
+              "affil_nums": [],
+              "is_presenter": false
+            },
+            {
+              "name": "Clovis Eberhart",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "海野 広志",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学工学部電気情報物理工学科"
+            },
+            {
+              "num": "2",
+              "name": "東北大学電気通信研究所"
+            }
+          ],
+          "new_id": 72
+        }
+      ]
+    },
+    {
+      "id": "pgroup-C",
+      "name": "グループC",
+      "posters": [
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "ADS実行時ログデータの可視化による挙動解析",
+          "presentation_id": 67,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "鈴木 大飛",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "青木 利晃",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "TRAN",
+              "affil_nums": [],
+              "is_presenter": false
+            },
+            {
+              "name": "Duong Dinh",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "北陸先端科学技術大学院大学"
+            }
+          ],
+          "new_id": 73
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "摂動付与による麻雀AIの解釈可能性向上",
+          "presentation_id": 68,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "大倉 功士",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "和賀 正樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "池渕 未来",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "末永 幸平",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学大学院情報学研究科"
+            }
+          ],
+          "new_id": 74
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "定理証明支援系Rocqにおける述語展開を用いた定理検索プラグインの実装",
+          "presentation_id": 76,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "高杉 丈太郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中野 圭介",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学工学部電気情報物理工学科"
+            },
+            {
+              "num": "2",
+              "name": "東北大学電気通信研究所"
+            }
+          ],
+          "new_id": 75
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "補助データの構造データへの色付けによる可視化と残像アニメーションの提案",
+          "presentation_id": 79,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "林 みなみ",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "田邉 裕大",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "増原 英彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学"
+            }
+          ],
+          "new_id": 76
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "超並列プロセッサアレイ上のデータベースにおけるオンライン負荷分散に向けて",
+          "presentation_id": 81,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "秀島 宇音",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "佐藤 重幸",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "鵜川 始陽",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            },
+            {
+              "num": "2",
+              "name": "電気通信大学"
+            }
+          ],
+          "new_id": 77
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "多段階計算に基づくコンパイル時テンソル形状検査のDNNプログラムへの適用",
+          "presentation_id": 85,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "諏訪 敬之",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学・株式会社イミロン"
+            },
+            {
+              "num": "2",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 78
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "会話型プログラム設計学習環境Ladderの拡張",
+          "presentation_id": 94,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "熊本 航太",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "叢 悠悠",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "増原 英彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学"
+            }
+          ],
+          "new_id": 79
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "定理証明支援系による動的型をもつプログラミング言語の検証基盤の実装",
+          "presentation_id": 97,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "齋藤 佑貴",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中野 圭介",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "浅田 和之",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "菊池 健太郎",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学大学院情報科学研究科"
+            },
+            {
+              "num": "2",
+              "name": "東北大学電気通信研究所"
+            }
+          ],
+          "new_id": 80
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "直接操作によるデータ構造プログラミングの対話的合成",
+          "presentation_id": 98,
+          "is_student": true,
+          "poster_style": "ポスター・デモ",
+          "poster_style_class": "ps_both",
+          "authors": [
+            {
+              "name": "吉尾 拓真",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "田邉 裕大",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "増原 英彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学"
+            }
+          ],
+          "new_id": 81
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "非機密化のあるλ計算における型にもとづく安全な情報流のための環境双模倣",
+          "presentation_id": 65,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "住井 英二郎",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学 大学院 情報科学研究科"
+            }
+          ],
+          "new_id": 82
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Unifying Function- and Argument-First Bidirectional Type Systems by Boxy Types",
+          "presentation_id": 71,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "吉岡 拓真",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "関山 太朗",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            },
+            {
+              "num": "2",
+              "name": "国立情報学研究所"
+            }
+          ],
+          "new_id": 83
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Structuring Böhm-Jacopini Graphs",
+          "presentation_id": 72,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "Batyrbek Danel",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "亀山 幸義",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "筑波大学"
+            }
+          ],
+          "new_id": 84
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "代数的エフェクトハンドラのSmall-stepインタプリタの導出",
+          "presentation_id": 73,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "相馬 一葉",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "浅井 健一",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "お茶の水女子大学"
+            }
+          ],
+          "new_id": 85
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "等式理論に対する有限導出型",
+          "presentation_id": 74,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "山下 拓真",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "池渕 未来",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 86
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "A categorical semantics of the modal linear lambda-calculus",
+          "presentation_id": 75,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "Yosuke Fukuda",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "Kyoto Tachibana University"
+            }
+          ],
+          "new_id": 87
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "大規模Rubyアプリケーションに対する自動テスト分散実行基盤",
+          "presentation_id": 77,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "大塚 真太朗",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "STORES株式会社"
+            }
+          ],
+          "new_id": 88
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "借用可能リソースのためのTypestateプログラミング",
+          "presentation_id": 78,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "川上 竜司",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "田邉 裕大",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "関山 太朗",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "総合研究大学院大学"
+            },
+            {
+              "num": "2",
+              "name": "東京科学大学"
+            },
+            {
+              "num": "3",
+              "name": "国立情報学研究所"
+            }
+          ],
+          "new_id": 89
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "CRuby処理系におけるGCガードマクロ漏れによるオブジェクト誤回収の検知手法",
+          "presentation_id": 80,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "青田 紘輝",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "小宮 常康",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "電気通信大学 大学院情報理工学研究科 情報・ネットワーク工学専攻 小宮研究室"
+            },
+            {
+              "num": "2",
+              "name": "電気通信大学 大学院情報理工学研究科 情報・ネットワーク工学専攻"
+            }
+          ],
+          "new_id": 90
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "control/promptのsmall-stepインタプリタの導出",
+          "presentation_id": 82,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "小高 菜摘",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "浅井 健一",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "お茶の水女子大学"
+            }
+          ],
+          "new_id": 91
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "バックトラックによる後読み付き正規表現マッチングの計算量解析に向けて",
+          "presentation_id": 83,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "足立 宏介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "佐藤 哲也",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "南出 靖彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学 情報理工学院 数理・計算科学系"
+            }
+          ],
+          "new_id": 92
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "形式言語族上の測度論的な閉包作用素",
+          "presentation_id": 84,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "洞 龍弥",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "新屋 良磨",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京大学"
+            },
+            {
+              "num": "2",
+              "name": "秋田大学"
+            }
+          ],
+          "new_id": 93
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Rabbitモデルの検証結果における可読性向上のためのトレースグラフの構築",
+          "presentation_id": 86,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "長谷川 光",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 94
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "関数型言語と自然言語における擬引用",
+          "presentation_id": 87,
+          "is_student": false,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "占部 雄大",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "国立国語研究所"
+            }
+          ],
+          "new_id": 95
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Specification-Guided Abstractionの出力文字列への拡張および確率的モデル検査への応用",
+          "presentation_id": 88,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "松本 翼",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "渡邉 知樹",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "和賀 正樹",
+              "affil_nums": [
+                "3"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            },
+            {
+              "num": "2",
+              "name": "国立情報学研究所"
+            },
+            {
+              "num": "3",
+              "name": "京都大学, 国立情報学研究所"
+            }
+          ],
+          "new_id": 96
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "限定継続演算子の仮想機械における継続実行の最適化に向けて",
+          "presentation_id": 89,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "石尾 千晶",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "浅井 健一",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "お茶の水女子大学"
+            }
+          ],
+          "new_id": 97
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "ユーザーによる仮定の宣言を可能とするRabbit処理系の拡張と検証の高速化",
+          "presentation_id": 90,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "北川 聖也",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            }
+          ],
+          "new_id": 98
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "ω-正規言語のzero-one性に対する代数的アプローチ",
+          "presentation_id": 10,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "田中 良尚",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "井上 裕介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "名古屋大学"
+            }
+          ],
+          "new_id": 99
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Towards Borrowable Ownership Types with Algebraic Effect Handlers",
+          "presentation_id": 92,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "Peien Chen",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Yudai Tanabe",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "Taro Sekiyama",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "Institute of Science Tokyo"
+            },
+            {
+              "num": "2",
+              "name": "National Institute of Informatics"
+            }
+          ],
+          "new_id": 100
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "トレース論理のエンテイルメント判定のための循環証明体系",
+          "presentation_id": 15,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "佐藤 拓海",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中澤 巧爾",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "名古屋大学"
+            }
+          ],
+          "new_id": 101
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "同型を除いた単一化を用いた型主導ライブラリ検索",
+          "presentation_id": 95,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "瀧本 哲史",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "森口 草介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "渡部 卓雄",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学"
+            }
+          ],
+          "new_id": 102
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "定理証明支援系Rocqを用いた双方向変換におけるレンズ則の含意の証明",
+          "presentation_id": 96,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "長田 和樹",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "中野 圭介",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東北大学大学院情報科学研究科"
+            }
+          ],
+          "new_id": 103
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "因果無矛盾的な可逆デバッガCauDErに対する時間意味の導入",
+          "presentation_id": 20,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "貞本 優菜",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "結縁 祥治",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "名古屋大学情報学部コンピュータ科学科"
+            },
+            {
+              "num": "2",
+              "name": "名古屋大学大学院情報学研究科"
+            }
+          ],
+          "new_id": 104
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Modular Representation of Choice-Based Computation via Higher-Order Syntax",
+          "presentation_id": 100,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "谷口 茜",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "Tom Schrijvers",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "叢 悠悠",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "増原 英彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学"
+            },
+            {
+              "num": "2",
+              "name": "KU Leuven"
+            }
+          ],
+          "new_id": 105
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "Multi-Version Objectsによる複数バージョンが共存するアプリケーションの構築と進化",
+          "presentation_id": 102,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "糟谷 颯希",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "田邉 裕大",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "増原 英彦",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "東京科学大学"
+            }
+          ],
+          "new_id": 106
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "テンソル多体近似を用いた関係データ因子分解の実現",
+          "presentation_id": 103,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "磯邊 猛",
+              "affil_nums": [
+                "1",
+                "2"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "井上 克巳",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "杉山 麿人",
+              "affil_nums": [
+                "1",
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "総合研究大学院大学"
+            },
+            {
+              "num": "2",
+              "name": "国立情報学研究所"
+            }
+          ],
+          "new_id": 107
+        },
+        {
+          "css_class": "cat3",
+          "category": "C3",
+          "title": "多相型付きCPS計算および暗黙的多相付きλ計算から多相型付きCPS計算への変換",
+          "presentation_id": 104,
+          "is_student": true,
+          "poster_style": "ポスター",
+          "poster_style_class": "ps_poster",
+          "authors": [
+            {
+              "name": "中村 光希",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": true
+            },
+            {
+              "name": "五十嵐 淳",
+              "affil_nums": [
+                "1"
+              ],
+              "is_presenter": false
+            },
+            {
+              "name": "関山 太朗",
+              "affil_nums": [
+                "2"
+              ],
+              "is_presenter": false
+            }
+          ],
+          "affiliations": [
+            {
+              "num": "1",
+              "name": "京都大学"
+            },
+            {
+              "num": "2",
+              "name": "国立情報学研究所"
+            }
+          ],
+          "new_id": 108
+        }
+      ]
+    }
+  ]
+}
